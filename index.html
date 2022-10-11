@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+    <script src="vega_lite_vis.js"></script>
+    <link rel="stylesheet" href="vs.css">
+    <title>Map</title>
+</head>
+
+<body>
+    <div class="bgimg">
+        <div class="center">
+            <h1 class="textcenter">Data Science Jobs in Australia</h1>
+            <p class="textcenter">Harvard Business Review calls the role of a data scientist as "the sexiest job of the 21st century" 
+                In 2022, data science ranked in the top five most in-demand and highest paying jobs in Australia. Its annual average 
+                growth rate is predicted to be 2.4 per cent, according to Deloitte, a whole percentage point higher than the average 
+                job rate growth.</p>
+            <table  style="width: 100%;">
+                <tr>
+                    <td><div   style="display: block;" id="map"></div>
+                        <p class="textcenter">The map visualization above shows the average base salary for data science jobs in different 
+                            states of Australia. The lighter the color, the lower the value; the darker the color, the higher the value.
+                            Of all the other states, <b>New South Wales</b> has the highest average estimated base salary at $111,057 and <b>Victoria</b> 
+                            has the lowest average estimated base salary at $94,633.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><div   style="display: block;" id="boxplot"></div>
+                        <p class="textcenter">The boxplot above shows the distribution of base salaries for different industries. From the 
+                            boxplot above, we can see that <b>Internet & Web Services</b> industry has the highest median base salary at $183,000 and
+                            <b>HR consulting</b> industry has the lowest median base salary at $183,000. <b>Business Consulting</b> industry has the 
+                            highest box length, which means that the estimated base salary in this industry is widely dispersed.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><div   style="display: block;" id="top10"></div>
+                        <p class="textcenter">The bar chart shows the top 10 most in-demand data science jobs in Australia. From the bar chart above,
+                            we can see that three most in-demand data science jobs are <b>Data Scientist</b>, <b>Data Analyst</b> and <b>Data Engineer</b>.
+                        </p>
+                    </td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><div   style="display: block;" id="interact"></div>
+                        <p class="textcenter">In order to pursue a successful career as a data scientist, professionals must master different technical skills. 
+                            The bar chart shows the most important skills for getting a data science job. From the bar chart above,
+                            we can see that three most important skills are <b>SQL</b>, <b>Python</b> and <b>R</b>. The least important skills are <b>Matlab</b>, 
+                            <b>NoSql</b> and <b>Julia</b>.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

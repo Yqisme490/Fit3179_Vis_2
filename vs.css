@@ -1,0 +1,32 @@
+.center {
+    margin: auto;
+    width: 50%;
+    border-style: inset;
+    padding: 10px;
+    background-color: white;
+  }
+
+.textcenter {
+    text-align: center!important;
+}
+
+.justify-content-center {
+    -webkit-box-pack: center!important;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+.bgimg {
+    background-image: url("WhatisBigData.jpg");
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0 100px;
+  }
+
+body{
+    margin: 0px;
+}
+  

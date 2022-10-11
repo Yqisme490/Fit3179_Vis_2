@@ -1,0 +1,16 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": { "url": "https://raw.githubusercontent.com/Yqisme490/Fit3179_Vis2/main/top5Skills.csv"},
+  "mark": "bar",
+  "width": {"step": 17},
+  "encoding": {
+    "y": {
+      "aggregate": "sum", "field": "countVal",
+      "stack":  "normalize"
+    },
+    "x": {"field": "Job\\.Title"},
+    "color": {
+      "field": "skill"
+    }
+  }
+}
