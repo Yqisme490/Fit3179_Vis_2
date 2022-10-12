@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "A vertical box plot showing median, min, and max body mass of penguins.",
-  "title": "Estimate base salary for each Industry (Top 10 industries by count)",
+  "title": {"text":"Estimate base salary for each Industry (Top 10 industries by count)","fontSize":19,"anchor": "start"},
   "width": "container",
   "height": 400,
   "data": {"url": "https://raw.githubusercontent.com/Yqisme490/3179/main/top10industry.csv"},
@@ -10,13 +10,13 @@
     "extent": "min-max"
   },
   "encoding": {
-    "x": {"field": "CompanyIndustry", "type": "nominal", "title":"Company Type"},
+    "x": {"field": "CompanyIndustry", "type": "nominal", "title":"Company Industry"},
     "color": {"field": "CompanyIndustry", "type": "nominal", "legend": null},
     "y": {
       "field": "EstimateBaseSalary",
       "type": "quantitative",
       "scale": {"zero": false},
-      "title": "Estimate Base Salary"
+      "title": "Estimate Base Salary ($)"
     }
   }
 }

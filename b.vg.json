@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title":"Top 10 Data Science Jobs in demand",
+  "title": {"text":"Top 10 Data Science Jobs in demand","fontSize":19,"anchor": "start"},
   "width": "container",
   "height": 400,
   "data": { "url": "https://raw.githubusercontent.com/Yqisme490/Fit3179_Vis2/main/AustraliaDataScienceJobs.csv"},
