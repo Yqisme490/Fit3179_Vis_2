@@ -1,6 +1,6 @@
 .center {
     margin: auto;
-    width: 50%;
+    width: 65%;
     border-style: inset;
     padding: 10px;
     background-color: white;
@@ -16,6 +16,7 @@
     -ms-flex-pack: center!important;
     justify-content: center!important;
 }
+
 .bgimg {
     background-image: url("WhatisBigData.jpg");
     height: 100%;
