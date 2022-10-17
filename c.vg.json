@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "A vertical box plot showing median, min, and max body mass of penguins.",
-  "title": {"text":"Distribution of base salary for each industry","fontSize":25,"anchor": "start"},
-  "width": 950,
+  "title": {"text":"Distribution of base salary for each industry (Top 10)","fontSize":25,"anchor": "start"},
+  "width": 920,
   "height": 400,
   "data": {"url": "top10industry.csv"},
   "mark": {
