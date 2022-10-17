@@ -1,9 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {"text":"Top 10 Data Science Jobs in demand","fontSize":19,"anchor": "start"},
+  "title": {"text":"Top 10 Data Science Jobs in demand","fontSize":25,"anchor": "start"},
   "width": "container",
   "height": 400,
-  "data": { "url": "https://raw.githubusercontent.com/Yqisme490/Fit3179_Vis2/main/AustraliaDataScienceJobs.csv"},
+  "data": { "url": "AustraliaDataScienceJobs.csv"},
   "transform": [
     {
       "aggregate": [{
@@ -23,7 +23,6 @@
       "filter": "datum.rank <= 10"
     }
   ],
-  "mark": "bar",
   "encoding": {
     "x": {"field": "Job\\.Title",
        "type": "nominal",
@@ -34,6 +33,12 @@
        "title": "Count",
        "type": "quantitative"
     },
+    "color": {"field":"Job\\.Title",
+    "type": "nominal",
+    "scale": {"range": ["purple"]}, 
+    "legend": null
+  }
+    ,
     "text": {"field": "CountJob", "type": "quantitative"},
     "tooltip": [
       {"field": "Job\\.Title", "type": "nominal", "title": "Job Title"},

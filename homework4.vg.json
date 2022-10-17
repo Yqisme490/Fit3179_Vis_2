@@ -3,9 +3,9 @@
   "description": "A simple pie chart with embedded data.",
   "width": "container",
   "height": 400,
-  "title": {"text":"The most important skills for different data science jobs (Top 5 in-demand Jobs)","fontSize":19,"anchor": "start"},
+  "title": {"text":"The most important skills for different data science jobs (Top 5 in-demand Jobs)","fontSize":25,"anchor": "start"},
   "data": {
-    "url": "https://raw.githubusercontent.com/Yqisme490/Fit3179_Vis2/main/top5Skills_2.csv"
+    "url": "top5Skills.csv"
   },
   "params": [
     {
@@ -58,7 +58,26 @@
     "y": {"field": "countVal", "type": "quantitative", "title":"Count"},
     "x": {"field": "skill", "type": "nominal", "title":"Skill", "sort": {"op": "sum", "field": "rank","order":"ascending"}
     },
-    "color":{"field":"JobTitle"},
+    "color":{"field":"JobTitle",
+    "title":"Job Title",
+    "type": "nominal",
+    "scale": {
+    "domain": [
+    "Data Analyst",
+    "Data Engineer",
+    "Data Scientist",
+    "Data Specialist",
+    "Machine Learning Engineer"
+      ],
+    "range": [
+    "#e41a1c",
+    "#984ea3",
+    "#ff7f00",
+    "#a6cee3",
+    "#1518cf"
+      ]
+    }
+  },
     "tooltip": [
       {"field": "JobTitle", "type": "nominal", "title": "Job Title"},
       {"field": "skill", "type": "nominal", "title": "Skill"},
