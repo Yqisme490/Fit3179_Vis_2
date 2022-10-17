@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": "container",
+  "width": 350,
   "height": 400,
-  "title": {"text":"Australia Data Science Jobs Estimate Base Salary by State in August 2022","fontSize":25,"anchor": "start"},
+  "title": {"text":"Australia Data Science Jobs Base Salary by State","fontSize":20,"anchor": "start"},
   "projection": {"type": "equirectangular"},
   "data": 
     {
