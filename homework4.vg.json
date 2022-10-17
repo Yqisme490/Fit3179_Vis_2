@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "A simple pie chart with embedded data.",
-  "width": 350,
+  "width": 800,
   "height": 400,
   "title": {"text":"In-demand skills for different data science jobs","fontSize":20,"anchor": "start"},
   "data": {

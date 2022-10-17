@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 350,
+  "width": 800,
   "height": 400,
   "title": {"text":"Australia Data Science Jobs Base Salary by State","fontSize":20,"anchor": "start"},
   "projection": {"type": "equirectangular"},
