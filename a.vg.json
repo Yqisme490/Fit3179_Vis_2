@@ -12,7 +12,7 @@
       "filter": {"field": "key", "equal": "Company - Private"}
     }],
     "title": "Private",
-    "width": 210,
+    "width": 420,
     "height": 400,
     "mark": "bar",
     "encoding": {
@@ -54,7 +54,7 @@
     }],
     "title": "Public",
     "mark": "bar",
-    "width": 210,
+    "width": 420,
     "height": 400,
     "encoding": {
       "y": {
