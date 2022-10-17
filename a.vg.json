@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "A population pyramid for the US in 2000.",
   "data": { "url": "companyTypeRating.csv"},
-  "title": {"text":"Private vs Public Company Comparisons","fontSize":20,"anchor": "start"},
+  "title": {"text":"Private vs Public Company Comparisons","fontSize":25,"anchor": "start"},
   "transform": [
     {"calculate": "toNumber(datum.value)", "as": "value"}
   ],

@@ -3,7 +3,7 @@
   "description": "A simple pie chart with embedded data.",
   "width": 800,
   "height": 400,
-  "title": {"text":"Most important skills for different data science jobs","fontSize":23,"anchor": "start"},
+  "title": {"text":"Most important skills for different data science jobs","fontSize":25,"anchor": "start"},
   "data": {
     "url": "top5Skills.csv"
   },
